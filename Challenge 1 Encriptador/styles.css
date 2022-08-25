@@ -1,0 +1,56 @@
+body {
+  background-color: darkslategray;
+  background-image: url("img/fondo madera y preguntas.jpg");
+}
+nav {
+  display: flex;
+  margin-left: 200px;
+}
+nav div img {
+  width: 80px;
+}
+h1 {
+  font-family: Lobster;
+  src: url(fonts/Lobster-Regular.ttf), Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: blanchedalmond;
+  margin-left: 50px;
+}
+section {
+  margin-left: 200px;
+}
+button {
+  width: 220px;
+  height: 40px;
+  margin: 15px;
+  border-radius: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: maroon;
+}
+.inputTxt {
+  background-color: lightskyblue;
+  font-size: 14px;
+  color: brown;
+}
+.outputTxt {
+  background-color: lightpink;
+  font-size: 14px;
+  color: brown;
+}
+.encriptar {
+  background-color: lightgoldenrodyellow;
+}
+.desencriptar {
+  background-color: lightgreen;
+}
+#segundo {
+  display: inline-flex;
+  flex-direction: column;
+}
+footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color: sandybrown;
+  margin-left: 10px;
+}

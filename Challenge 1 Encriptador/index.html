@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <nav>
+      <div><img src="img/logo Alura color.png" alt="logoAluraColor" /></div>
+      <h1>Challenge #1</h1>
+    </nav>
+    <main>
+      <section>
+        <textarea
+          class="inputTxt"
+          cols="60"
+          rows="9"
+          placeholder="INGRESE SU TEXTO AQUI"
+        ></textarea>
+        <div>
+          <button class="encriptar" onclick="btnEncriptar()">ENCRIPTAR</button>
+          <button class="desencriptar" onclick="btnDesencriptar()">
+            DESENCRIPTAR
+          </button>
+        </div>
+      </section>
+      <section id="segundo">
+        <textarea class="outputTxt" cols="60" rows="9"></textarea>
+        <button class="copiar" onclick="copiar()">COPIAR</button>
+      </section>
+      <footer>
+        <h2>
+          1er Trabajo para mi PortFolio creado con lo aprendido en ONE - Grupo 3
+          / Claudia Metz
+        </h2>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
